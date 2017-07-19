@@ -1,0 +1,121 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body {
+font-family:Georgia;
+}
+h1 {
+font-size:30px;
+text-decoration:underline;
+}
+
+.helv {
+font-family:Helvetica;
+}
+
+.right {
+float:right;
+}
+.left {
+float:left;
+}
+
+.height2 {
+height:700px;
+}
+.height1 {
+height:350px;
+}
+.width2 {
+width:700px;
+}
+.width1 {
+width:350px;
+}
+
+.g-y {
+background-color:grey;
+color:yellow;
+}
+.b-y {
+background-color:black;
+color:yellow;
+}
+.t-b {
+background-color:teal;
+color:black;
+}
+.w-b {
+background-color:white;
+color:black;
+}
+.b-w {
+background-color:black;
+color:white;
+}
+.ta-y {
+background-color:tan;
+color:yellow;
+}
+
+.b {
+color:black;
+}
+.w {
+color:white;
+}
+.g {
+color:grey;
+}
+.t {
+color:teal;
+}
+.ta {
+color:tan;
+}
+
+.FULL10 {
+position:relative;
+width:100%;
+float:left;
+margin-bottom:10px;
+}
+
+.FULL1 {
+width:10%;
+float:left;
+}
+.FULL2 {
+width:20%;
+float:left;
+}
+.FULL3 {
+width:30%;
+float:left;
+}
+.FULL4 {
+width:40%;
+float:left;
+}
+.FULL5 {
+width:50%;
+float:left;
+}
+.FULL6 {
+width:60%;
+float:left;
+}
+.FULL7 {
+width:70%;
+float:left;
+}
+.FULL8 {
+width:80%;
+float:left;
+}
+.FULL9 {
+width:90%;
+float:left;
+}
