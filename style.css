@@ -11,10 +11,38 @@ font-size:30px;
 text-decoration:underline;
 }
 
+button {
+background-color:silver;
+color:black;
+border-style:solid;
+border-width:1px;
+border-color:black;
+}
+button:hover {
+background-color:white;
+border-style:dashed;
+}
+button:active {
+background-color:yellow;
+border-style:dotted;
+}
+.sbutton {
+border-color:yellow;
+color:blue;
+}
+.sbutton:hover {
+background-color:grey;
+}
+.sbutton:active {
+background-color:orange;
+}
+
 .helv {
 font-family:Helvetica;
 }
-
+.curve {
+border-radius:8px;
+}
 .right {
 float:right;
 }
@@ -39,25 +67,37 @@ width:350px;
 background-color:grey;
 color:yellow;
 }
+.g-b{
+background-color:grey;
+color:black;
+}
 .b-y {
 background-color:black;
 color:yellow;
-}
-.t-b {
-background-color:teal;
-color:black;
-}
-.w-b {
-background-color:white;
-color:black;
 }
 .b-w {
 background-color:black;
 color:white;
 }
+.t-b {
+background-color:teal;
+color:black;
+}
+.t-w {
+background-color:teal;
+color:white;
+}
+.w-b {
+background-color:white;
+color:black;
+}
 .ta-y {
 background-color:tan;
 color:yellow;
+}
+.ta-b {
+background-color:tan;
+color:black;
 }
 
 .b {
@@ -79,43 +119,35 @@ color:tan;
 .FULL10 {
 position:relative;
 width:100%;
-float:left;
 margin-bottom:10px;
 }
-
+.FULL1,.FULL2,.FULL3,.FULL4,.FULL5,.FULL6,.FULL7,.FULL8,.FULL9,.FULL10 {
+float:left;
+}
 .FULL1 {
 width:10%;
-float:left;
 }
 .FULL2 {
 width:20%;
-float:left;
 }
 .FULL3 {
 width:30%;
-float:left;
 }
 .FULL4 {
 width:40%;
-float:left;
 }
 .FULL5 {
 width:50%;
-float:left;
 }
 .FULL6 {
 width:60%;
-float:left;
 }
 .FULL7 {
 width:70%;
-float:left;
 }
 .FULL8 {
 width:80%;
-float:left;
 }
 .FULL9 {
 width:90%;
-float:left;
 }
