@@ -10,6 +10,14 @@ h1 {
 font-size:30px;
 text-decoration:underline;
 }
+h2 {
+font-size:20px;
+text-decoration:underline;
+}
+h3 {
+font-size:10px;
+text-decoration:underline;
+}
 
 button {
 background-color:silver;
@@ -34,7 +42,7 @@ color:blue;
 background-color:grey;
 }
 .sbutton:active {
-background-color:orange;
+background-color:lime;
 }
 
 .helv {
@@ -42,25 +50,33 @@ font-family:Helvetica;
 }
 .curve {
 border-radius:8px;
+padding-left:8px;
+padding-right:8px;
+border-style:double;
+border-width:2px;
+border-color:black;
 }
 .right {
 float:right;
 }
-.left {
-float:left;
-}
 
 .height2 {
-height:700px;
+height:720px;
 }
 .height1 {
-height:350px;
+height:320px;
+}
+.height05 {
+height:100px;
 }
 .width2 {
-width:700px;
+width:720px;
 }
 .width1 {
-width:350px;
+width:320px;
+}
+.width05 {
+width:100px;
 }
 
 .g-y {
@@ -121,8 +137,11 @@ position:relative;
 width:100%;
 margin-bottom:10px;
 }
-.FULL1,.FULL2,.FULL3,.FULL4,.FULL5,.FULL6,.FULL7,.FULL8,.FULL9,.FULL10 {
+.FULL05,.FULL1,.FULL2,.FULL3,.FULL4,.FULL5,.FULL6,.FULL7,.FULL8,.FULL9,.FULL10,.left {
 float:left;
+}
+.FULL05 {
+width:05%;
 }
 .FULL1 {
 width:10%;
