@@ -1,12 +1,14 @@
-/*Samuel Hill Basic Cascading Style Sheet Framework
-https://www.youtube.com/watch?v=ud1JXqGWPvU  */
+/* Samuel Hill Basic Cascading Style Sheet Framework
+https://github.com/hillpa2/SH_BCSSF
+https://www.youtube.com/watch?v=ud1JXqGWPvU
+*/
 * {
 margin: 0;
 padding: 0;
 border: 0;
 }
 body {
-font-family:Georgia;
+font-family:Georgia, serif;
 }
 h1 {
 font-size:30px;
@@ -50,12 +52,15 @@ background-color:lime;
 .helv {
 font-family:Helvetica;
 }
+.courier {
+font-family:Courier;
+}
 .curve {
 border-radius:8px;
 padding-left:8px;
 padding-right:8px;
 border-style:double;
-border-width:2px;
+border-width:3px;
 border-color:black;
 }
 .right {
@@ -71,6 +76,9 @@ height:320px;
 .height05 {
 height:100px;
 }
+.height01 {
+height:10px;
+}
 .width2 {
 width:720px;
 }
@@ -79,6 +87,9 @@ width:320px;
 }
 .width05 {
 width:100px;
+}
+.width01 {
+width:10px;
 }
 
 .g-y {
